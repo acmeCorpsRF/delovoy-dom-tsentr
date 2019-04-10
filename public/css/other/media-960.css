@@ -1,0 +1,7 @@
+@media all and (min-width: 960px) and (max-width: 1919px) {
+  .landing__win {
+    background-position: 60% top; }
+  .trading-app__filling {
+    padding: 60px 32px 40px 32px; }
+  .advantages__block {
+    padding: 28px 32px 68px; } }

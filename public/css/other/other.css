@@ -1,0 +1,297 @@
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("../fonts/Roboto-Thin.ttf"); }
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url("../fonts/Roboto-Light.ttf"); }
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url("../fonts/Roboto-Regular.ttf"); }
+
+.btn-default {
+  font-family: Roboto-Thin, sans-serif;
+  color: #ffffff;
+  border: 2px solid #737373;
+  text-align: center;
+  background-color: #737373; }
+
+.btn-primary {
+  font-family: Roboto-Thin, sans-serif;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  text-align: center; }
+
+.btn-bg {
+  font-family: Roboto-Thin, sans-serif;
+  color: #ffffff;
+  border: 2px solid #d50a51;
+  text-align: center;
+  background-color: #d50a51; }
+
+.landing::after, .trading-app__links::after, .team__burnley-logo-link::after, .attention__follow-us-links::after, .footer__filling:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+button, input, textarea, select, option {
+  border: none;
+  outline: none; }
+
+button {
+  cursor: pointer; }
+
+a {
+  text-decoration: none; }
+
+a, button {
+  transition: 0.3s linear; }
+
+::before, ::after {
+  box-sizing: border-box; }
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1; }
+  .header__logo-link {
+    display: block; }
+
+.landing__win {
+  background-image: url("../img/1980-Fullscreen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.landing__vip-ticket {
+  background-color: rgba(27, 137, 182, 0.8); }
+  .landing__vip-ticket-title {
+    font-family: Roboto-Light, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    border-bottom: 4px solid #ffffff; }
+  .landing__vip-ticket-text {
+    font-size: 15px;
+    font-family: Roboto-Light, sans-serif;
+    color: #ffffff; }
+
+.landing__start-trading-title {
+  font: normal 22px Roboto-Light, sans-serif;
+  color: #ffffff; }
+
+.landing__start-trading-list {
+  margin-top: 17px; }
+
+.landing__start-trading-point {
+  margin-left: 11px;
+  font: 15px/25px Roboto-Regular, sans-serif;
+  color: #ffffff;
+  list-style-image: url("../img/point.png");
+  list-style-position: inside; }
+
+.landing__burnley-logo-link {
+  display: block;
+  overflow: auto; }
+
+.landing__burnley-logo {
+  float: left; }
+
+.landing__burnley-text {
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff; }
+
+.landing__years24 {
+  text-align: center;
+  background-color: #000000; }
+
+.landing__image {
+  max-width: 191px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 41px; }
+
+.landing__title {
+  font: normal 30px Roboto-Regular, sans-serif;
+  color: #ffffff; }
+
+.landing__sing-up-title {
+  font-weight: normal;
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff; }
+
+.landing__open-account-label {
+  display: block; }
+
+.landing__open-account-input {
+  width: 100%;
+  padding: 0 10px;
+  font-size: 18px;
+  font-family: Roboto-Light, sans-serif;
+  color: #010101;
+  text-align: center; }
+
+.landing__open-account-button {
+  width: 100%;
+  font-size: 20px; }
+  .landing__open-account-button:hover {
+    box-shadow: inset 0 0 15px 0 white; }
+
+.landing__open-account-agreement {
+  display: block;
+  font-size: 13px;
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff;
+  text-align: start; }
+
+.landing__open-account-check {
+  float: left;
+  border-radius: 0; }
+
+.landing__policy {
+  display: inherit;
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff;
+  text-decoration: underline; }
+  .landing__policy:hover {
+    text-decoration: none; }
+
+.landing__risk {
+  font-size: 13px;
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff; }
+
+.trading-app__block {
+  background-color: #ffffff; }
+
+.trading-app__filling {
+  background-color: #000000; }
+
+.trading-app__on-go {
+  position: relative;
+  font-family: Roboto-Thin, sans-serif;
+  color: #ffffff; }
+
+.trading-app__tt {
+  max-width: 94px; }
+
+.trading-app__title {
+  font-size: 30px;
+  line-height: 38px; }
+
+.trading-app__app-store, .trading-app__google-play {
+  float: left;
+  max-width: 120px;
+  border-radius: 8px; }
+  .trading-app__app-store:hover, .trading-app__google-play:hover {
+    box-shadow: 0 0 15px 0 white; }
+
+.trading-app__join-us {
+  position: absolute;
+  bottom: -40px;
+  right: 35px;
+  width: 280px; }
+
+.advantages__block {
+  background-color: #d50a51; }
+
+.advantages__international-awards, .advantages__have-question-title, .advantages__have-question-text {
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff; }
+
+.advantages__accent {
+  font-family: Roboto-Regular, sans-serif; }
+
+.advantages__international-awards {
+  text-align: center; }
+
+.advantages__international-awards-title, .advantages__have-question-title {
+  font-weight: normal; }
+
+.advantages__collection {
+  display: flex; }
+
+.advantages__have-question-title {
+  text-align: center; }
+
+.advantages__have-question-text {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center; }
+
+.advantages__have-question-link {
+  width: 100%;
+  height: 55px;
+  font-size: 17px;
+  line-height: 55px; }
+  .advantages__have-question-link:hover {
+    box-shadow: inset 0 0 15px 0 white; }
+
+.team__block {
+  background-color: #ffffff;
+  border-bottom: 5px solid #129edb; }
+
+.team__filling {
+  position: relative;
+  margin: 0 auto; }
+
+.team__burnley-logo-link {
+  display: block; }
+
+.team__burnley-logo {
+  float: left; }
+
+.team__burnley-text {
+  display: inline-block;
+  font-family: Roboto-Regular, sans-serif;
+  color: #000000; }
+
+.team__burnley-fc {
+  position: absolute;
+  bottom: -5px; }
+
+.attention__block {
+  background-color: #000000; }
+
+.attention__filling {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.attention__follow-us-title {
+  font-weight: normal;
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff; }
+
+.attention__follow-us-link {
+  float: left;
+  border-radius: 50%; }
+  .attention__follow-us-link:hover {
+    box-shadow: 0 0 15px 0 #ffffff; }
+
+.attention__warning {
+  font-family: Roboto-Light, sans-serif;
+  color: #ffffff;
+  background: url("../img/icons/warning.png") left top no-repeat; }
+  .attention__warning-rw {
+    font-family: Roboto-Regular, sans-serif; }
+
+.footer__block {
+  background-color: #56595a;
+  border-bottom: 2px solid #ffffff; }
+
+.footer__logo-link {
+  display: block; }
+
+.footer__paragraph {
+  font-family: Roboto-Regular, sans-serif;
+  color: #d9d9d9; }

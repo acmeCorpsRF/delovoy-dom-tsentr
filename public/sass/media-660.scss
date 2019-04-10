@@ -1,0 +1,208 @@
+@media all and (min-width: 660px) and (max-width: 959px) {
+
+  .header {
+    padding: 20px;
+  }
+
+  .landing {
+
+    &__win {
+      padding-top: 115px;
+      padding-bottom: 11px;
+      background-position: top center;
+    }
+
+    &__vip-ticket {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: 25px 16px 30px 0;
+
+      &-title {
+        padding: 0 0 1px 10px;
+      }
+
+      &-trading {
+        padding: 19px 0 0 10px;
+      }
+
+    }
+
+    &__start-trading {
+      margin-top: 22px;
+      padding-left: 10px;
+    }
+
+    &__burnley-logo-link {
+      margin: 25px 0 0 73px;
+    }
+
+    &__burnley-logo {
+      margin-right: 14px;
+    }
+
+
+    &__burnley-text {
+      display: block;
+      margin-top: 24px;
+    }
+
+    &__years24 {
+      padding: 55px 110px 45px 115px;
+    }
+
+    &__open-account-label {
+      margin-bottom: 22px;
+    }
+
+    &__open-account-input {
+      line-height: 60px;
+    }
+
+    &__open-account-button {
+      margin-bottom: 30px;
+      line-height: 60px;
+    }
+
+    &__open-account-agreement {
+      margin-bottom: 27px;
+      line-height: 23px;
+    }
+
+    &__open-account-check {
+      width: 23px;
+      height: 23px;
+      margin-right: 12px;
+    }
+
+    &__policy {
+      margin-bottom: 57px;
+    }
+
+  }
+
+  .trading-app {
+
+    &__filling {
+      padding: 37px 32px 38px;
+    }
+
+    &__tt {
+      margin-right: 30px;
+    }
+
+    &__text {
+      margin-bottom: 42px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+  }
+
+  .advantages {
+
+    &__block {
+      padding: 28px 32px 68px;
+    }
+
+    &__international-awards-title {
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+    &__collection {
+      padding: 0 40px;
+    }
+
+    &__award {
+
+      &:nth-child(-n+2) {
+        margin-bottom: 40px;
+      }
+
+    }
+
+    &__award-image {
+      max-width: 164px;
+    }
+
+    &__have-question-title {
+      font-size: 32px;
+    }
+
+    &__have-question-link {
+      max-width: 279px;
+    }
+
+  }
+
+  .team {
+
+    &__block {
+      padding: 58px 0 0 0;
+    }
+
+    &__filling {
+      max-width: 594px;
+    }
+
+    &__burnley-logo-link {
+      max-width: 360px;
+    }
+
+    &__burnley-logo {
+      max-width: 53px;
+      margin-right: 41px;
+    }
+
+    &__burnley-text {
+      max-width: 260px;
+      margin-top: 9px;
+      font-size: 16px;
+    }
+
+    &__burnley-fc {
+      right: 2px;
+    }
+
+  }
+
+  .attention {
+
+    &__filling {
+      padding: 32px 23px 34px;
+    }
+
+    &__follow-us-title {
+      margin-bottom: 24px;
+    }
+
+    &__follow-us-link {
+      width: 46px;
+    }
+
+    &__follow-us-link {
+      margin-left: 17px;
+    }
+
+    &__warning {
+      margin-top: 29px;
+      padding-left: 34px;
+      font-size: 13px;
+    }
+
+  }
+
+  .footer {
+
+    &__filling {
+      padding: 81px 19px 96px;
+    }
+
+    &__logo-link {
+      width: 238px;
+      margin-bottom: 29px;
+    }
+
+  }
+
+}

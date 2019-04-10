@@ -1,0 +1,578 @@
+@media all and (min-width: 1920px) {
+
+  .landing {
+
+    &__win {
+      background-position: center;
+    }
+
+  }
+
+  .trading-app {
+
+    &__filling {
+      padding: 60px 400px 40px 480px;
+    }
+
+    &__info {
+      max-width: 695px;
+    }
+
+  }
+
+  .advantages {
+
+    &__block {
+      padding: 57px 178px 53px 182px;
+    }
+
+  }
+
+}
+
+@media all and (min-width: 1536px) {
+
+  .advantages {
+
+    &__international-awards {
+      max-width: 770px;
+    }
+
+  }
+
+}
+
+@media all and (max-width: 1535px) and (min-width: 1408px) {
+
+  .advantages {
+
+    &__international-awards {
+      max-width: 725px;
+    }
+
+  }
+
+}
+
+@media all and (min-width: 1408px) {
+
+  .advantages {
+
+    &__block {
+      overflow: auto;
+    }
+
+    &__filling {
+      max-width: 1560px;
+      margin: 0 auto;
+    }
+
+    &__award {
+
+      &:not(:last-child) {
+        margin-right: 37px;
+      }
+
+    }
+
+    &__international-awards {
+      display: inline-block;
+    }
+
+    &__collection {
+      justify-content: space-between;
+    }
+
+    &__have-question {
+      float: right;
+      max-width: 596px;
+    }
+
+    &__have-question-link {
+      float: left;
+    }
+
+  }
+
+}
+
+@media all and (max-width: 1407px) {
+
+  .advantages {
+
+    &__collection {
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    &__award {
+      width: 50%;
+    }
+
+    &__award-image {
+      margin: 0 auto;
+    }
+
+  }
+
+}
+
+@media all and (min-width: 1280px) {
+
+  .landing {
+
+    &__burnley-logo-link {
+      position: absolute;
+      top: 46px;
+      left: 477px;
+      z-index: 1;
+    }
+
+  }
+
+}
+
+@media all and (min-width: 1024px) {
+
+  .trading-app {
+
+    &__block {
+      padding-top: 103px;
+    }
+
+    &__on-go {
+      max-width: 1024px;
+      margin: 0 auto;
+    }
+
+    &__info {
+      margin-right: 320px;
+    }
+
+  }
+
+}
+
+@media all and (max-width: 1023px) {
+
+  .trading-app {
+
+    &__join-us {
+      display: none;
+    }
+
+  }
+
+}
+
+@media all and (min-width: 960px) {
+
+  .header {
+    padding: 46px 81px;
+  }
+
+  .landing {
+
+    &__block {
+      padding-right: 400px;
+      position: relative;
+      overflow: auto;
+    }
+
+    &__win {
+      float: left;
+      width: 100%;
+      padding-bottom: 227px;
+    }
+
+    &__vip-ticket {
+      max-width: 686px;
+      margin: 217px 81px 0;
+      padding: 18px 32px 27px 0;
+
+      &-title {
+        padding: 0 0 13px 36px;
+      }
+
+      &-trading {
+        padding: 19px 0 0 36px;
+      }
+
+    }
+
+    &__years24 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 400px;
+      padding: 45px 62px 138px 47px;
+    }
+
+    &__start-trading {
+      margin-top: 13px;
+      padding-left: 36px;
+    }
+
+    &__burnley-logo {
+      margin-right: 19px;
+    }
+
+    &__burnley-logo-link {
+      width: 384px;
+    }
+
+    &__burnley-text {
+      display: inline-block;
+      width: 290px;
+      font-size: 19px;
+      line-height: 24px;
+    }
+
+    &__sing-up-title {
+      margin-bottom: 17px;
+    }
+
+    &__open-account-label {
+      margin-bottom: 21px;
+    }
+
+    &__open-account-input {
+      line-height: 44px;
+    }
+
+    &__open-account-button {
+      margin-bottom: 29px;
+      line-height: 44px;
+    }
+
+    &__open-account-agreement {
+      margin-bottom: 36px;
+      line-height: 15px;
+    }
+
+    &__open-account-check {
+      width: 15px;
+      height: 15px;
+      margin-right: 7px;
+    }
+
+    &__policy {
+      margin-bottom: 53px;
+    }
+
+  }
+
+  .trading-app {
+
+    &__tt {
+      margin-right: 33px;
+    }
+
+    &__title {
+      margin-bottom: 37px;
+    }
+
+    &__text {
+      margin-bottom: 35px;
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    &__app-store {
+      margin-left: 225px;
+    }
+
+  }
+
+  .advantages {
+
+    &__international-awards-title {
+      margin-bottom: 40px;
+      font-size: 32px;
+    }
+
+    &__award {
+      max-width: 164px;
+    }
+
+    &__have-question-title {
+      font-size: 30px;
+    }
+
+    &__have-question-link {
+      max-width: 290px;
+    }
+
+  }
+
+  .team {
+
+    &__block {
+      padding: 66px 0 0 0;
+    }
+
+    &__filling {
+      max-width: 920px;
+    }
+
+    &__burnley-logo {
+      max-width: 56px;
+      margin-right: 20px;
+      margin-bottom: 11px;
+    }
+
+    &__burnley-logo-link {
+      max-width: 595px;
+    }
+
+    &__burnley-text {
+      margin-top: 26px;
+      font-size: 17px;
+    }
+
+    &__burnley-fc {
+      right: 15px;
+      max-width: 190px;
+    }
+
+  }
+
+  .attention {
+
+    &__filling {
+      padding: 31px 0 15px;
+    }
+
+    &__follow-us {
+      float: right;
+    }
+
+    &__follow-us-title {
+      margin-bottom: 14px;
+      text-align: center;
+    }
+
+    &__follow-us-link {
+      width: 32px;
+      margin-left: 12px;
+    }
+
+    &__warning {
+      max-width: 625px;
+      padding-left: 37px;
+      font-size: 12px;
+    }
+
+  }
+
+  .footer {
+
+    &__filling {
+      display: flex;
+      justify-content: space-between;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 81px 0 96px;
+    }
+
+    &__text {
+      width: 220px;
+    }
+
+    &__logo-link {
+      width: 220px;
+      margin-bottom: 25px;
+    }
+
+  }
+
+}
+
+@media all and (max-width: 959px) {
+
+  .landing {
+
+    &__burnley-text {
+      font-size: 15px;
+      line-height: 22px;
+    }
+
+    &__sing-up-title {
+      margin-bottom: 36px;
+    }
+
+  }
+
+  .trading-app {
+
+    &__filling {
+      border-top: 1px solid #151515;
+    }
+
+  }
+
+  .team {
+
+    &__burnley-fc {
+      max-width: 190px;
+    }
+
+  }
+
+  .attention {
+
+    &__follow-us {
+      text-align: center;
+    }
+
+    &__follow-us-links {
+      display: inline-block;
+    }
+
+  }
+
+  &__logo-link {
+    width: 219px;
+  }
+
+}
+
+@media all and (min-width: 660px) {
+
+  .header {
+
+    &__logo-link {
+      max-width: 238px;
+    }
+
+  }
+
+  .landing {
+
+    &__vip-ticket-title {
+      font-size: 43px;
+      line-height: 44px;
+    }
+
+    &__burnley-logo {
+      width: 45px;
+    }
+
+    &__years24 {
+      background-image: url('../img/Layer 50.png');
+      background-position: right;
+      background-repeat: no-repeat;
+    }
+
+    &__title {
+      margin-bottom: 50px;
+    }
+
+    &__sing-up-title {
+      font-size: 55px;
+    }
+
+    &__policy {
+      font-size: 14px;
+    }
+
+  }
+
+  .trading-app {
+
+    &__tt {
+      float: left;
+    }
+
+    &__info {
+      padding-left: 127px;
+    }
+
+    &__app-store {
+      margin-right: 25px;
+    }
+
+  }
+
+  .advantages {
+
+    &__have-question-title {
+      margin-bottom: 18px;
+    }
+
+    &__have-question-text {
+      margin-bottom: 23px;
+      padding: 0 98px;
+    }
+
+    &__have-question-links {
+
+      &::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+    }
+
+    &__have-question-link {
+
+      &:first-of-type {
+        margin-right: 16px;
+      }
+    }
+
+  }
+
+  .attention {
+
+    &__follow-us-title {
+      font-size: 22px;
+    }
+
+  }
+
+  .footer {
+
+    &__paragraph {
+      margin-bottom: 18px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+  }
+
+}
+
+@media all and (max-width: 1407px) and (min-width: 660px) {
+
+  .advantages {
+
+    &__international-awards {
+      margin-bottom: 62px;
+    }
+
+    &__have-question-links {
+      text-align: center;
+    }
+
+    &__have-question-link {
+      display: inline-block;
+    }
+
+  }
+
+}
+
+@media all and (max-width: 1279px) and (min-width: 960px) {
+
+  .landing {
+
+    &__burnley-logo-link {
+      margin: 25px 0 0 81px;
+    }
+
+  }
+
+}

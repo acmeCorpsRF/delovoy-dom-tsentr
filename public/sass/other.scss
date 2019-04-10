@@ -1,0 +1,464 @@
+@font-face {
+  font-family: Roboto-Thin;
+  src: url('../fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+$colorWhite: #ffffff;
+$fontThin: Roboto-Thin, sans-serif;
+;
+$fontLight: Roboto-Light, sans-serif;
+;
+$fontRegular: Roboto-Regular, sans-serif;
+;
+
+%button-default {
+  font-family: $fontThin;
+  color: $colorWhite;
+  border: 2px solid #737373;
+  text-align: center;
+  background-color: #737373;
+}
+
+%button-primary {
+  font-family: $fontThin;
+  color: $colorWhite;
+  border: 2px solid $colorWhite;
+  text-align: center;
+}
+
+%button-background {
+  font-family: $fontThin;
+  color: $colorWhite;
+  border: 2px solid #d50a51;
+  text-align: center;
+  background-color: #d50a51;
+}
+
+%clear-both {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+button, input, textarea, select, option {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, button {
+  transition: 0.3s linear;
+}
+
+::before, ::after {
+  box-sizing: border-box;
+}
+
+.btn-default {
+  @extend %button-default;
+}
+
+.btn-primary {
+  @extend %button-primary;
+}
+
+.btn-bg {
+  @extend %button-background;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  &__logo-link {
+    display: block;
+  }
+
+}
+
+.landing {
+
+  &::after {
+    @extend %clear-both;
+  }
+
+  &__win {
+    background-image: url('../img/1980-Fullscreen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__vip-ticket {
+    background-color: rgba(27, 137, 182, 0.8);
+
+    &-title {
+      font-family: $fontLight;
+      color: $colorWhite;
+      font-weight: normal;
+      border-bottom: 4px solid $colorWhite;
+    }
+
+    &-text {
+      font-size: 15px;
+      font-family: $fontLight;
+      color: $colorWhite;
+    }
+
+  }
+
+  &__start-trading-title {
+    font: normal 22px $fontLight;
+    color: $colorWhite;
+  }
+
+  &__start-trading-list {
+    margin-top: 17px;
+  }
+
+  &__start-trading-point {
+    margin-left: 11px;
+    font: 15px/25px $fontRegular;
+    color: $colorWhite;
+    list-style-image: url('../img/point.png');
+    list-style-position: inside;
+  }
+
+  &__burnley-logo-link {
+    display: block;
+    overflow: auto;
+  }
+
+  &__burnley-logo {
+    float: left;
+  }
+
+  &__burnley-text {
+    font-family: $fontLight;
+    color: $colorWhite;
+  }
+
+  &__years24 {
+    text-align: center;
+    background-color: #000000;
+  }
+
+  &__image {
+    max-width: 191px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 41px;
+  }
+
+  &__title {
+    font: normal 30px $fontRegular;
+    color: $colorWhite;
+  }
+
+  &__sing-up-title {
+    font-weight: normal;
+    font-family: $fontLight;
+    color: $colorWhite;
+  }
+
+  &__open-account-label {
+    display: block;
+  }
+
+  &__open-account-input {
+    width: 100%;
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: $fontLight;
+    color: #010101;
+    text-align: center;
+  }
+
+  &__open-account-button {
+    width: 100%;
+    font-size: 20px;
+
+    &:hover {
+      box-shadow: inset 0 0 15px 0 rgba(255, 255, 255, 1);
+    }
+
+  }
+
+  &__open-account-agreement {
+    display: block;
+    font-size: 13px;
+    font-family: $fontLight;
+    color: $colorWhite;
+    text-align: start;
+  }
+
+  &__open-account-check {
+    float: left;
+    border-radius: 0;
+  }
+
+  &__policy {
+    display: inherit;
+    font-family: $fontLight;
+    color: $colorWhite;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+  }
+
+  &__risk {
+    font-size: 13px;
+    font-family: $fontLight;
+    color: $colorWhite;
+  }
+
+}
+
+.trading-app {
+
+  &__block {
+    background-color: #ffffff;
+  }
+
+  &__filling {
+    background-color: #000000;
+  }
+
+  &__on-go {
+    position: relative;
+    font-family: $fontThin;
+    color: $colorWhite;
+  }
+
+  &__tt {
+    max-width: 94px;
+  }
+
+  &__title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  &__links {
+
+    &::after {
+      @extend %clear-both;
+    }
+
+  }
+
+  &__app-store, &__google-play {
+    float: left;
+    max-width: 120px;
+    border-radius: 8px;
+
+    &:hover {
+      box-shadow: 0 0 15px 0 rgba(255, 255, 255, 1);
+    }
+
+  }
+
+  &__join-us {
+    position: absolute;
+    bottom: -40px;
+    right: 35px;
+    width: 280px;
+  }
+
+}
+
+.advantages {
+
+  &__block {
+    background-color: #d50a51;
+  }
+
+  &__international-awards, &__have-question-title, &__have-question-text {
+    font-family: $fontLight;
+    color: $colorWhite;
+  }
+
+  &__accent {
+    font-family: $fontRegular;
+  }
+
+  &__international-awards {
+    text-align: center;
+  }
+
+  &__international-awards-title, &__have-question-title {
+    font-weight: normal;
+  }
+
+  &__collection {
+    display: flex;
+  }
+
+  &__have-question-title {
+    text-align: center;
+  }
+
+  &__have-question-text {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  }
+
+  &__have-question-link {
+    width: 100%;
+    height: 55px;
+    font-size: 17px;
+    line-height: 55px;
+
+    &:hover {
+      box-shadow: inset 0 0 15px 0 rgba(255, 255, 255, 1);
+    }
+
+  }
+
+}
+
+.team {
+
+  &__block {
+    background-color: $colorWhite;
+    border-bottom: 5px solid #129edb;
+  }
+
+  &__filling {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  &__burnley-logo-link {
+    display: block;
+
+    &::after {
+      @extend %clear-both;
+    }
+
+  }
+
+  &__burnley-logo {
+    float: left;
+  }
+
+  &__burnley-text {
+    display: inline-block;
+    font-family: $fontRegular;
+    color: #000000;
+  }
+
+  &__burnley-fc {
+    position: absolute;
+    bottom: -5px;
+  }
+
+}
+
+.attention {
+
+  &__block {
+    background-color: #000000;
+  }
+
+  &__filling {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  &__follow-us-title {
+    font-weight: normal;
+    font-family: $fontLight;
+    color: $colorWhite;
+  }
+
+  &__follow-us-links {
+
+    &::after {
+      @extend %clear-both;
+    }
+
+  }
+
+  &__follow-us-link {
+    float: left;
+    border-radius: 50%;
+
+    &:hover {
+      box-shadow: 0 0 15px 0 #ffffff;
+    }
+
+  }
+
+  &__warning {
+    font-family: $fontLight;
+    color: $colorWhite;
+    background: url('../img/icons/warning.png') left top no-repeat;
+
+    &-rw {
+      font-family: $fontRegular;
+    }
+
+  }
+
+}
+
+.footer {
+
+  &__block {
+    background-color: #56595a;
+    border-bottom: 2px solid $colorWhite;
+  }
+
+  &__filling {
+
+    &:after {
+      @extend %clear-both;
+    }
+
+  }
+
+  &__logo-link {
+    display: block;
+  }
+
+  &__paragraph {
+    font-family: $fontRegular;
+    color: #d9d9d9;
+  }
+
+}
